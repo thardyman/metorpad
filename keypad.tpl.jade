@@ -1,7 +1,17 @@
-// Add the polymer goodies
-head
-  link(rel="import" href="bower_components/core-icons/core-icons.html")
-
-// Render the keypad
-each allkeys
-  button(id=id) #{label}
+main
+  .row
+    paper-button#seven(raised) 7
+    paper-button#eight(raised) 8
+    paper-button#nine(raised) 9
+  .row
+    paper-button#four(raised) 4
+    paper-button#five(raised) 5
+    paper-button#six(raised) 6
+  .row
+    paper-button#one(raised) 1
+    paper-button#two(raised) 2
+    paper-button#three(raised) 3
+  .row
+    paper-button#delete(raised) &lt;
+    paper-button#zero(raised) 0
+    paper-button#enter(raised) &lt;-

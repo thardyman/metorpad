@@ -1,7 +1,7 @@
 
 
 Template.keypad.events({
-	'click button' : function(){
+	'click main' : function(){
 		Meteor.call('keyPressed', event.target.getAttribute('id'));
 	}
 });
